@@ -140,7 +140,7 @@ The `franka_ros2` package includes a `.devcontainer` folder, which allows you to
 To verify that your setup works correctly without a robot, you can run the following command to use dummy hardware:
 
 ```bash
-ros2 launch franka_moveit_config moveit.launch.py robot_ip:=dont-care use_fake_hardware:=true
+ros2 launch franka_fr3_moveit_config moveit.launch.py robot_ip:=dont-care use_fake_hardware:=true
 ```
 
 
